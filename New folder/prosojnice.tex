@@ -1,28 +1,6 @@
-\documentclass{beamer}
+\documentclass{article}
 % Naloga 1.3.1: Za dokument uporabite razred `beamer'.
 % Ne dodajajte nastavitve za velikost pisave, kot je bila v datoteki `5-prosojnice.tex`.
-\usepackage[T1]{fontenc}
-\usepackage[utf8]{inputenc}
-\usepackage[slovene]{babel}
-\usepackage{pgfpages}
-\usepackage{amsmath}
-\usepackage{amssymb}
-\usepackage{tikz}
-\usetikzlibrary{math}
-\usepackage{pgfplots}
-\usepgfplotslibrary{external}
-\usepackage{array}
-
-\setbeamertemplate{footline}[frame number]{}
-\setbeamertemplate{note page}{\pagecolor{yellow!5}\insertnote}
-
-
-\newtheorem{izrek}{Izrek}
-\newtheorem{definicija}{Definicija}
-
-\newcommand{\RR}{\mathbb{R}}
-\newcommand{\ZZ}{\mathbb{Z}}
-\newcommand{\CC}{\mathbb{C}}
 
 % Naloga 1.3.2: vključite paket `predavanja'.
 
@@ -31,12 +9,6 @@
 % poiščite niz `{definicija}' ali niz `{izrek}'.
 
 \begin{document}
-
-\title{Matematični izrazi in uporaba paketa \texttt{beamer}}
-\subtitle{\emph{Matematčnih} nalog ni treba reševati}
-\institute{Fakulteta za matematiko in fiziko}
-\date{}
-\titlepage
 
 % Naloga 1.3.4: pripravite naslovno stran z vsebino:
 % - naslov: Matematični izrazi in uporaba paketa \texttt{beamer}
@@ -56,27 +28,16 @@
 %    Poglejte, kako deluje ta ukaz.
 % 3. Ker ni videti preveč lepo, pomožni parameter zakomentirajte.
 
-\begin{frame}
-    \frametitle{Kratek pregled}
-    \tableofcontents
-\end{frame}
-    
 \section{Paket \texttt{beamer}}
-\input{prosojnice/1-paket-beamer.tex}
 
 \section{Paketa \texttt{amsmath} in \texttt{amsfonts}}
-\input{prosojnice/2-paketa-amsmath-amsfonts.tex}
 
 \section[Matematika, 1. del\\\large{Analiza, logika, množice}]{Matematika, 1. del}
 
-
 \section{Stolpci in slike}
-\input{prosojnice/4-stolpci-slike.tex}
 
 \section{Paket \texttt{beamer} in tabele}
-\input{prosojnice/5-beamer-tabele.tex}
 
 \section[Matematika, 2. del\\\large{Zaporedja, algebra, grupe}]{Matematika, 2. del}
-\input{prosojnice/6-zaporedja-algebra-grupe.tex}    
 
 \end{document}
